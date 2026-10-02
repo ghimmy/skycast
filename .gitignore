@@ -1,0 +1,28 @@
+#Python
+__pycache__/
+*.pyc
+
+# uv / virtual environment
+.venv/
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+
+# Editors
+*.swp
+.vscode/
+
+# Secrets (never upload)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+
